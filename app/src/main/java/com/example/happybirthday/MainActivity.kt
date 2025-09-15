@@ -89,6 +89,7 @@ fun GreetingImage(message: String, from: String) {
 @Composable
 fun GreetingTextPreview() {
     HappyBirthdayTheme {
-        GreetingImage("Happy Birthday Marc Alex", "From Emma")
+        GreetingImage(stringResource(R.string.message),
+            stringResource(R.string.signature))
     }
 }
